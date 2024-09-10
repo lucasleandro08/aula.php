@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Modelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Livraria Modelo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Encontre seu próximo livro favorito!</h2>
+            <p>Descubra uma vasta seleção de livros de todos os gêneros.</p>
+        </div>
+    </section>
+
+    <section class="search">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Procure por título ou autor..." onkeyup="filterBooks()">
+        </div>
+    </section>
+
+    <section class="featured-books">
+        <div class="container">
+            <h2>Livros em Destaque</h2>
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="livro1.jpg" alt="Livro 1">
+                    <h3>Livro Aventura</h3>
+                    <p>Autor: Autor A</p>
+                </div>
+                <div class="book-item">
+                    <img src="livro2.jpg" alt="Livro 2">
+                    <h3>Livro Romance</h3>
+                    <p>Autor: Autor B</p>
+                </div>
+                <div class="book-item">
+                    <img src="livro3.jpg" alt="Livro 3">
+                    <h3>Livro Ficção</h3>
+                    <p>Autor: Autor C</p>
+                </div>
+                <div class="book-item">
+                    <img src="livro3.jpg" alt="Livro 4">
+                    <h3>Livro História</h3>
+                    <p>Autor: Autor D</p>
+                </div>
+                <div class="book-item">
+                    <img src="livro1.jpg" alt="Livro 5">
+                    <h3>Livro Ciência</h3>
+                    <p>Autor: Autor E</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Livraria Modelo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
